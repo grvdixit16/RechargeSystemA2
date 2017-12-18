@@ -1,27 +1,16 @@
 {
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "version": "1.0.1",
-      "type": "platform"
-    },
-    "Microsoft.AspNetCore.Diagnostics": "1.0.0",
-    "Microsoft.AspNetCore.Mvc": "1.0.1",
-    "Microsoft.AspNetCore.Razor.Tools": {
-      "version": "1.0.0-preview2-final",
-      "type": "build"
-    },
-    "Microsoft.AspNetCore.Routing": "1.0.1",
-    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
-    "Microsoft.AspNetCore.StaticFiles": "1.0.0",
-    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
-    "Microsoft.Extensions.Configuration.Json": "1.0.0",
-    "Microsoft.Extensions.Logging": "1.0.0",
-    "Microsoft.Extensions.Logging.Console": "1.0.0",
-    "Microsoft.Extensions.Logging.Debug": "1.0.0",
-    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-    "BundlerMinifier.Core": "2.6.362"
+    "Microsoft.AspNetCore.Diagnostics": "2.0.1",
+    "Microsoft.AspNetCore.Server.IISIntegration": "2.0.1",
+    "Microsoft.AspNetCore.Server.Kestrel": "2.0.1",
+    "Microsoft.AspNetCore.StaticFiles": "2.0.1",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.0.0",
+    "Microsoft.Extensions.Configuration.Json": "2.0.0",
+    "Microsoft.Extensions.Logging": "2.0.0",
+    "Microsoft.Extensions.Logging.Console": "2.0.0",
+    "Microsoft.Extensions.Logging.Debug": "2.0.0",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0"
   },
 
   "tools": {
@@ -42,7 +31,9 @@
     "emitEntryPoint": true,
     "preserveCompilationContext": true
   },
-
+  "runtimes": {
+    "win10-x64": {}
+  },
   "runtimeOptions": {
     "configProperties": {
       "System.GC.Server": true
